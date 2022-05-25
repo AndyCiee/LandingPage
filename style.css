@@ -9,7 +9,7 @@
 }
 
 html{
-    scroll-behavior: inherit;
+    scroll-behavior: smooth;
 }
 *{
     margin: 0;
