@@ -36,7 +36,6 @@ nav{
     box-shadow: 2px 3px 2px #fff;
     position: sticky;
     top: 0;
-    left: 0;
     z-index: 1;
 }
 
@@ -48,37 +47,43 @@ ul{
     justify-content: space-evenly;
     align-items: center;
 }
-/* ul#WWDL{
-    list-style: none;
-    margin:0 0 30px 0;
-    padding: 50px 0 0 0;
-    text-align: center;
-} */
 
 ul#WWDL{
+    list-style-type: none;
+    margin: 0 0 30px 0;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+ul#WWDL li {
     display: inline-block;
-    border-bottom: solid 5px #70877F;
-    padding: 15px 25px;
+    border-bottom: solid 5px #FF714E;
+    padding: 25px 50px;
     margin-bottom: 4px;
-    color: aliceblue;
-    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
 }
-
-ul#WWDL li.educate{
-    background: #C4A77D url(./assets/cap.jpg) no-repeat;
-    background-position: 7px center;
+ul#WWDL li.educate {
+background: #3C75C3 url('https://standards.ieee.org/images/event_icon7.png') no-repeat;
+background-position:7px center;
 }
-ul#WWDL li.train{
-    background: #C4A77D url(./assets/Hammer.jpg) no-repeat;
-    background-position: 7px center;
+ul#WWDL li.Train {
+    background: #3C75C3 url('https://standards.ieee.org/images/event_icon7.png') no-repeat;
+    background-position:7px center;
 }
-ul#WWDL li.support{
-    background: #C4A77D url(./assets/support.jfif) no-repeat;
-    background-position: 7px center;
+ul#WWDL li.support {
+        background: #3C75C3 url('https://standards.ieee.org/images/event_icon7.png') no-repeat;
+    background-position:7px center;
 }
-ul#WWDL li.advocate{
-    background: #C4A77D url(./assets/Mic.jfif) no-repeat;
-    background-position: 7px center;
+ul#WWDL li.advocate {
+        background: #3C75C3 url('https://standards.ieee.org/images/event_icon7.png') no-repeat;
+    background-position:7px center;
+}
+ul#WWDL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #000000;
 }
 .nav-item{
     margin-left: 5rem;
@@ -103,4 +108,65 @@ ul#WWDL li.advocate{
 .about p{
     font-size: large;
     text-shadow: 2px 2px 2px #C4A77D;
+}
+
+div#contact{
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+div.group{
+    margin: 20px 0;
+}
+
+div.group.inlined{
+    width:49%;
+    /* display: inline-block; */
+    float: left;
+    margin-left: 1%;
+}
+label{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10px;
+}
+button {
+    height: 50px;
+    background: #3C75C3;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.social {
+    text-align: center;
+    margin: 2rem;
+}
+
+.socicons {
+    font-size: 1.3rem;
+}
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
 }

@@ -31,22 +31,59 @@
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, quam eligendi minus ea amet consequuntur porro?</p>
 </section>
     <!-- What We Do -->
-    <section>
+    <!-- <section> -->
         <ul class="WWDL">
             <li class="Educate">Educate</li>
             <li class="Train">Train</li>
             <li class="Support">Support</li>
             <li class="Advocate">Advocate</li>    
         </ul>
-    </section>
+    <!-- </section> -->
 
 <!-- How to book -->
-
+<div class="contact">
+<!-- Name -->
+    <form action="reservation-pg" method="post" >
+        <div class="group">
+            <label for="name">Name</label>
+            <input type="text" name="client_name" id="name" placeholder="Andra Winters" required>
+        </label>
+    </div>
+</form>
+</div>
+<!-- email -->
+<div>
+    <div class="group">
+        <label for="email">Your E-mail</label>
+        <input type="email" name="client_email" id="email" placeholder="andra@emailme.com" required>
+    </label>
+</div>
+<!-- phone -->
+<div>
+    <div class="group">
+        <label for="phone">Your Phone Number</label>
+        <input type="text" name="client_phone" id="phone" placeholder="(324)384-9485" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+    </label>
+    <button type="Submit">We Will Be In Touch</button>
+    </div>
+</div>
 
     <!-- Social icons -->
-
+<section class="social">
+    <h3>Connect with us on Social Media</h3>
+    <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+        </div>    
+    </div>
+</section>
     <!-- Scroll to top button -->
 
     <!-- Web page script -->
+<i class="scroll-up" id="scroll-up">
+    <img src="" class="" alt="">
+    </img>
+</i>
 </body>
 </html>
